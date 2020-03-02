@@ -29,9 +29,10 @@ shinyUI(
                         
                         ## SIDE PANEL CONTENT ##
                         sidebarPanel(
+                          style = "overflow-y: auto; max-height: 90vh; position:relative;", # make it scrollable
                           tags$head(tags$style(
-                            type = 'text/css',
-                            'form.well { max-height: 1600px; overflow-y: auto; }'
+                            type = 'text/css'#,
+                            #'form.well { max-height: 1600px; overflow-y: auto; }'
                           )),
                           
                           ## SPECIFIC TO TREE LANDSCAPE EXPLORER ##
@@ -393,9 +394,10 @@ shinyUI(
                         
                         ## SIDE PANEL CONTENT ##
                         sidebarPanel(
+                          style = "overflow-y: auto; max-height: 90vh; position:relative;", # make it scrollable
                           tags$head(tags$style(
-                            type = 'text/css',
-                            'form.well { max-height: 1600px; overflow-y: auto; }'
+                            type = 'text/css'#,
+                            #'form.well { max-height: 1600px; overflow-y: auto; }'
                           )),
                           
                           ## INPUT
@@ -593,9 +595,10 @@ shinyUI(
                         
                         ## SIDE PANEL CONTENT ##
                         sidebarPanel(
+                          style = "overflow-y: auto; max-height: 90vh; position:relative;", # make it scrollable
                           tags$head(tags$style(
-                            type = 'text/css',
-                            'form.well { max-height: 1600px; overflow-y: auto; }'
+                            type = 'text/css'#,
+                            #'form.well { max-height: 1600px; overflow-y: auto; }'
                           )),
                           
                           ## INPUT
