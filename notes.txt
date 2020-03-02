@@ -1,0 +1,13 @@
+Differences between the "treespace_shiny" app and the app bundled in the R package:
+
+ui.R
+Extra "start.html" tab panel
+Download handlers for saving in 3D
+
+
+
+server.R
+Responses to saving in 3D
+DengueTrees.RData is called directly rather than via the package because it contains only 300 rather than 500 trees
+
+
